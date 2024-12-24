@@ -1,0 +1,16 @@
+
+* {
+  box-sizing: border-box !important;
+}
+
+.mainContainer {
+  width: 100vw;
+}
+
+.userCard {
+  box-shadow: 0 .1rem .4rem rgba(0, 0, 0, .556) !important;
+  width: 400px !important;
+}
+.userCard:hover {
+color : white !important;
+}
