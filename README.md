@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Random User App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based web application styled with Tailwind CSS, which fetches random user data from an external API and displays it in a user-friendly card format. The app includes basic pagination to fetch and display new user data for each page.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Random User Card**: Displays user details fetched from the [Random User API](https://randomuser.me/).
+- **Pagination**: Allows navigation through pages, fetching new random user data for each page.
+- **Loading Indicator**: Shows a loader while data is being fetched from the API.
+- **Static Navbar and Footer**: Includes a simple static navbar and footer for a consistent layout.
+- **Responsive Design**: Designed using Tailwind CSS for a mobile-friendly and responsive UI.
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live demo here: [Random User App](https://sahilbisht890.github.io/RandomUser/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## API Used
 
-### `npm test`
+The app fetches data from the following API:
+```
+https://randomuser.me/api/?page=1&results=1&seed=abc
+```
+This API provides random user information, including name, location, picture, and more.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1. The application will load a random user and display their details in a card.
+2. Use the pagination controls to navigate through different pages and fetch new user data.
+3. Observe the loading indicator while the app fetches data from the API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **API Integration**: Random User API
+- **Deploy** : github-pages
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
+![Screenshot (9)](https://github.com/user-attachments/assets/da62f48c-838b-45b7-aaf1-efeabcc56ca3)
 
-### `npm run eject`
+![Screenshot (10)](https://github.com/user-attachments/assets/1c58dffe-468b-4480-991d-f5537860143a)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions are welcome! If you have any suggestions or want to improve the app, feel free to fork the repository and submit a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
